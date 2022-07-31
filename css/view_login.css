@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vh;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.image {
+    background-image: url('../img/bglogin.jpg');
+    width: 40vh;
+    height: 60vh;
+    background-size: cover;
+}
+
+.login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login form li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login h1 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: lightseagreen;
+}
+
+.login input {
+    padding-right: 5px;
+    height: 30px;
+    width: 35vh;
+    margin-bottom: 5px;
+    border: none;
+    border-left: 4px solid lightseagreen;
+}
+
+.login .checkbox {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+.login .checkbox input {
+    width: 15px;
+    border-radius: 20px;
+}
+
+.login button {
+    background-color: lightseagreen;
+    border: none;
+    width: 35vh;
+    height: 30px;
+    margin-top: 1px;
+}
+
+.login button:hover {
+    background-color: lightcoral;
+}
+
+.login form p {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.login form p a {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.login form p a:hover {
+    color: lightskyblue;
+}

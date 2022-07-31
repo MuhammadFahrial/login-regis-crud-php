@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vh;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.image {
+    background-image: url('../img/bglogin.jpg');
+    width: 40vh;
+    height: 60vh;
+    background-size: cover;
+}
+
+.regis {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.regis form li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regis h1 {
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: lightseagreen;
+}
+
+.regis input {
+    padding-right: 5px;
+    height: 30px;
+    width: 35vh;
+    margin-bottom: 5px;
+    border: none;
+    border-left: 4px solid lightseagreen;
+}
+
+.regis .checkbox {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+.regis .checkbox input {
+    width: 15px;
+    border-radius: 20px;
+}
+
+.regis button {
+    background-color: lightseagreen;
+    border: none;
+    width: 35vh;
+    height: 30px;
+    margin-top: 1px;
+}
+
+.regis button:hover {
+    background-color: lightcoral;
+}
+
+.regis form p {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.regis form p a {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.regis form p a:hover {
+    color: lightskyblue;
+}

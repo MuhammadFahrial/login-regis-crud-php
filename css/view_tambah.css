@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #D4ECDD;
+    height: 100vh;
+    width: 45vh;
+}
+
+.navbar nav h1 {
+    padding: 40px 0 0 0;
+}
+
+.navbar nav img {
+    width: 30vh;
+    margin: 30px auto;
+}
+
+.navbar nav .nav-item {
+    margin: 10px auto;
+    width: 200px;
+}
+
+.navbar nav .nav-item a li {
+    margin: 0 0 15px 0;
+    padding: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.navbar nav .nav-item a li.nav-tambah {
+    background-color: #E79C9C;
+}
+
+.navbar nav .nav-item a li:hover {
+    background-color: #E79C9C;
+    color: black;
+    transition: 0.5s;
+}
+
+.navbar nav .nav-item .logout {
+    margin-top: 60px;
+}
+
+.navbar nav .nav-item .logout a {
+    background-color: lightseagreen;
+    padding: 10px 20px;
+    color: #020202;
+    border-radius: 10px;
+}
+
+
+/* style input */
+
+.main-page {
+    margin: auto;
+    width: 100vh;
+}
+
+form li {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+form li input {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(30, 210, 216);
+}
+
+form li input.foto {
+    border: none;
+}
+
+form button {
+    float: right;
+    border: none;
+}
+
+form button {
+    padding: 10px 25px;
+    background-color: rgb(245, 141, 155);
+    border-radius: 10px;
+    color: black;
+}
+
+form button:hover {
+    background-color: #00bdec;
+    transition: 0.5s;
+}
